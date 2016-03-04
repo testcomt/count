@@ -7,11 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE8B5A6F1C78061A00379B8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE8B5A6E1C78061A00379B8A /* main.cpp */; };
+		DE426D331C89B225000F67F5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE426D321C89B225000F67F5 /* main.cpp */; };
+		DE426D351C89B225000F67F5 /* gtest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE426D341C89B225000F67F5 /* gtest.1 */; };
+		DE426D391C89B242000F67F5 /* gtest-all.cc in Sources */ = {isa = PBXBuildFile; fileRef = DE2369C01C89A6A50094A32D /* gtest-all.cc */; };
+		DE426D3E1C89BB1F000F67F5 /* testSalesOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE426D3C1C89BB1F000F67F5 /* testSalesOutput.cpp */; };
 		DE8B5A711C78061A00379B8A /* cExer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE8B5A701C78061A00379B8A /* cExer.1 */; };
+		DE8B5A781C78072F00379B8A /* salesOutput.c in Sources */ = {isa = PBXBuildFile; fileRef = DE8B5A771C78072F00379B8A /* salesOutput.c */; };
+		DE962D5B1C7F35A100A00D4C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE962D5A1C7F35A100A00D4C /* main.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DE98159D1C842B9900EEF88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9815801C842B9900EEF88F /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4539C8FF0EC27F6400A70F4C;
+			remoteInfo = "gtest-framework";
+		};
+		DE98159F1C842B9900EEF88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9815801C842B9900EEF88F /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C848FA101A209C0083642A;
+			remoteInfo = "gtest-static";
+		};
+		DE9815A11C842B9900EEF88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9815801C842B9900EEF88F /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C8490B101A217E0083642A;
+			remoteInfo = "gtest_main-static";
+		};
+		DE9815A31C842B9900EEF88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9815801C842B9900EEF88F /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40899F430FFA7184000B29AE;
+			remoteInfo = "gtest_unittest-framework";
+		};
+		DE9815A51C842B9900EEF88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9815801C842B9900EEF88F /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C84987101A36850083642A;
+			remoteInfo = "gtest_unittest-static";
+		};
+		DE9815A71C842B9900EEF88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9815801C842B9900EEF88F /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4089A0130FFACEFC000B29AE;
+			remoteInfo = "sample1_unittest-framework";
+		};
+		DE9815A91C842B9900EEF88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9815801C842B9900EEF88F /* gtest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 40C84997101A36A60083642A;
+			remoteInfo = "sample1_unittest-static";
+		};
+		DE9815AF1C842B9900EEF88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE98158C1C842B9900EEF88F /* WidgetFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D07F2C80486CC7A007CD1D0;
+			remoteInfo = WidgetFramework;
+		};
+		DE9815B11C842B9900EEF88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE98158C1C842B9900EEF88F /* WidgetFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B07BDEA0E3F3F9E00647869;
+			remoteInfo = WidgetFrameworkTest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		DE426D2E1C89B225000F67F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				DE426D351C89B225000F67F5 /* gtest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		DE8B5A691C78061A00379B8A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -25,12 +106,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE2369C01C89A6A50094A32D /* gtest-all.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "gtest-all.cc"; path = "../googletest/src/gtest-all.cc"; sourceTree = "<group>"; };
+		DE426D301C89B225000F67F5 /* gtest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gtest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE426D321C89B225000F67F5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DE426D341C89B225000F67F5 /* gtest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = gtest.1; sourceTree = "<group>"; };
+		DE426D3C1C89BB1F000F67F5 /* testSalesOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testSalesOutput.cpp; sourceTree = "<group>"; };
 		DE8B5A6B1C78061A00379B8A /* cExer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cExer; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE8B5A6E1C78061A00379B8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DE8B5A701C78061A00379B8A /* cExer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cExer.1; sourceTree = "<group>"; };
+		DE8B5A771C78072F00379B8A /* salesOutput.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = salesOutput.c; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		DE8B5A791C780F9900379B8A /* salesOutput.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = salesOutput.h; sourceTree = "<group>"; };
+		DE962D5A1C7F35A100A00D4C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DE98157A1C842B9900EEF88F /* DebugProject.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = DebugProject.xcconfig; sourceTree = "<group>"; };
+		DE98157B1C842B9900EEF88F /* FrameworkTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FrameworkTarget.xcconfig; sourceTree = "<group>"; };
+		DE98157C1C842B9900EEF88F /* General.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = General.xcconfig; sourceTree = "<group>"; };
+		DE98157D1C842B9900EEF88F /* ReleaseProject.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = ReleaseProject.xcconfig; sourceTree = "<group>"; };
+		DE98157E1C842B9900EEF88F /* StaticLibraryTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = StaticLibraryTarget.xcconfig; sourceTree = "<group>"; };
+		DE98157F1C842B9900EEF88F /* TestTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = TestTarget.xcconfig; sourceTree = "<group>"; };
+		DE9815801C842B9900EEF88F /* gtest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = gtest.xcodeproj; sourceTree = "<group>"; };
+		DE9815841C842B9900EEF88F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9815871C842B9900EEF88F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9815881C842B9900EEF88F /* runtests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = runtests.sh; sourceTree = "<group>"; };
+		DE9815891C842B9900EEF88F /* widget.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = widget.cc; sourceTree = "<group>"; };
+		DE98158A1C842B9900EEF88F /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
+		DE98158B1C842B9900EEF88F /* widget_test.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = widget_test.cc; sourceTree = "<group>"; };
+		DE98158C1C842B9900EEF88F /* WidgetFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WidgetFramework.xcodeproj; sourceTree = "<group>"; };
+		DE9815901C842B9900EEF88F /* runtests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = runtests.sh; sourceTree = "<group>"; };
+		DE9815911C842B9900EEF88F /* versiongenerate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = versiongenerate.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DE426D2D1C89B225000F67F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE8B5A681C78061A00379B8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +152,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE2369BF1C89A65B0094A32D /* googleTest */ = {
+			isa = PBXGroup;
+			children = (
+				DE2369C01C89A6A50094A32D /* gtest-all.cc */,
+			);
+			name = googleTest;
+			sourceTree = "<group>";
+		};
+		DE426D311C89B225000F67F5 /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				DE426D321C89B225000F67F5 /* main.cpp */,
+				DE426D341C89B225000F67F5 /* gtest.1 */,
+				DE426D3C1C89BB1F000F67F5 /* testSalesOutput.cpp */,
+			);
+			path = gtest;
+			sourceTree = "<group>";
+		};
 		DE8B5A621C78061A00379B8A = {
 			isa = PBXGroup;
 			children = (
+				DE2369BF1C89A65B0094A32D /* googleTest */,
 				DE8B5A6D1C78061A00379B8A /* cExer */,
+				DE426D311C89B225000F67F5 /* gtest */,
 				DE8B5A6C1C78061A00379B8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				DE8B5A6B1C78061A00379B8A /* cExer */,
+				DE426D301C89B225000F67F5 /* gtest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,15 +192,122 @@
 		DE8B5A6D1C78061A00379B8A /* cExer */ = {
 			isa = PBXGroup;
 			children = (
-				DE8B5A6E1C78061A00379B8A /* main.cpp */,
+				DE9815781C842B9900EEF88F /* xcode */,
 				DE8B5A701C78061A00379B8A /* cExer.1 */,
+				DE8B5A771C78072F00379B8A /* salesOutput.c */,
+				DE8B5A791C780F9900379B8A /* salesOutput.h */,
+				DE962D5A1C7F35A100A00D4C /* main.cpp */,
 			);
 			path = cExer;
+			sourceTree = "<group>";
+		};
+		DE9815781C842B9900EEF88F /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+				DE9815791C842B9900EEF88F /* Config */,
+				DE9815801C842B9900EEF88F /* gtest.xcodeproj */,
+				DE9815831C842B9900EEF88F /* Resources */,
+				DE9815851C842B9900EEF88F /* Samples */,
+				DE98158F1C842B9900EEF88F /* Scripts */,
+			);
+			name = xcode;
+			path = ../../googletest/xcode;
+			sourceTree = "<group>";
+		};
+		DE9815791C842B9900EEF88F /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				DE98157A1C842B9900EEF88F /* DebugProject.xcconfig */,
+				DE98157B1C842B9900EEF88F /* FrameworkTarget.xcconfig */,
+				DE98157C1C842B9900EEF88F /* General.xcconfig */,
+				DE98157D1C842B9900EEF88F /* ReleaseProject.xcconfig */,
+				DE98157E1C842B9900EEF88F /* StaticLibraryTarget.xcconfig */,
+				DE98157F1C842B9900EEF88F /* TestTarget.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		DE9815811C842B9900EEF88F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE98159E1C842B9900EEF88F /* gtest.framework */,
+				DE9815A01C842B9900EEF88F /* libgtest.a */,
+				DE9815A21C842B9900EEF88F /* libgtest_main.a */,
+				DE9815A41C842B9900EEF88F /* gtest_unittest-framework */,
+				DE9815A61C842B9900EEF88F /* gtest_unittest */,
+				DE9815A81C842B9900EEF88F /* sample1_unittest-framework */,
+				DE9815AA1C842B9900EEF88F /* sample1_unittest-static */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9815831C842B9900EEF88F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE9815841C842B9900EEF88F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE9815851C842B9900EEF88F /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				DE9815861C842B9900EEF88F /* FrameworkSample */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		DE9815861C842B9900EEF88F /* FrameworkSample */ = {
+			isa = PBXGroup;
+			children = (
+				DE9815871C842B9900EEF88F /* Info.plist */,
+				DE9815881C842B9900EEF88F /* runtests.sh */,
+				DE9815891C842B9900EEF88F /* widget.cc */,
+				DE98158A1C842B9900EEF88F /* widget.h */,
+				DE98158B1C842B9900EEF88F /* widget_test.cc */,
+				DE98158C1C842B9900EEF88F /* WidgetFramework.xcodeproj */,
+			);
+			path = FrameworkSample;
+			sourceTree = "<group>";
+		};
+		DE98158D1C842B9900EEF88F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9815B01C842B9900EEF88F /* Widget.framework */,
+				DE9815B21C842B9900EEF88F /* WidgetFrameworkTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE98158F1C842B9900EEF88F /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				DE9815901C842B9900EEF88F /* runtests.sh */,
+				DE9815911C842B9900EEF88F /* versiongenerate.py */,
+			);
+			path = Scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DE426D2F1C89B225000F67F5 /* gtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE426D361C89B225000F67F5 /* Build configuration list for PBXNativeTarget "gtest" */;
+			buildPhases = (
+				DE426D2C1C89B225000F67F5 /* Sources */,
+				DE426D2D1C89B225000F67F5 /* Frameworks */,
+				DE426D2E1C89B225000F67F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gtest;
+			productName = gtest;
+			productReference = DE426D301C89B225000F67F5 /* gtest */;
+			productType = "com.apple.product-type.tool";
+		};
 		DE8B5A6A1C78061A00379B8A /* cExer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE8B5A741C78061A00379B8A /* Build configuration list for PBXNativeTarget "cExer" */;
@@ -105,25 +344,145 @@
 			mainGroup = DE8B5A621C78061A00379B8A;
 			productRefGroup = DE8B5A6C1C78061A00379B8A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DE9815811C842B9900EEF88F /* Products */;
+					ProjectRef = DE9815801C842B9900EEF88F /* gtest.xcodeproj */;
+				},
+				{
+					ProductGroup = DE98158D1C842B9900EEF88F /* Products */;
+					ProjectRef = DE98158C1C842B9900EEF88F /* WidgetFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DE8B5A6A1C78061A00379B8A /* cExer */,
+				DE426D2F1C89B225000F67F5 /* gtest */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		DE98159E1C842B9900EEF88F /* gtest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = gtest.framework;
+			remoteRef = DE98159D1C842B9900EEF88F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE9815A01C842B9900EEF88F /* libgtest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgtest.a;
+			remoteRef = DE98159F1C842B9900EEF88F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE9815A21C842B9900EEF88F /* libgtest_main.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libgtest_main.a;
+			remoteRef = DE9815A11C842B9900EEF88F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE9815A41C842B9900EEF88F /* gtest_unittest-framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "gtest_unittest-framework";
+			remoteRef = DE9815A31C842B9900EEF88F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE9815A61C842B9900EEF88F /* gtest_unittest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = gtest_unittest;
+			remoteRef = DE9815A51C842B9900EEF88F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE9815A81C842B9900EEF88F /* sample1_unittest-framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "sample1_unittest-framework";
+			remoteRef = DE9815A71C842B9900EEF88F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE9815AA1C842B9900EEF88F /* sample1_unittest-static */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "sample1_unittest-static";
+			remoteRef = DE9815A91C842B9900EEF88F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE9815B01C842B9900EEF88F /* Widget.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Widget.framework;
+			remoteRef = DE9815AF1C842B9900EEF88F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE9815B21C842B9900EEF88F /* WidgetFrameworkTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = WidgetFrameworkTest;
+			remoteRef = DE9815B11C842B9900EEF88F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
+		DE426D2C1C89B225000F67F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE426D3E1C89BB1F000F67F5 /* testSalesOutput.cpp in Sources */,
+				DE426D391C89B242000F67F5 /* gtest-all.cc in Sources */,
+				DE426D331C89B225000F67F5 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE8B5A671C78061A00379B8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8B5A6F1C78061A00379B8A /* main.cpp in Sources */,
+				DE962D5B1C7F35A100A00D4C /* main.cpp in Sources */,
+				DE8B5A781C78072F00379B8A /* salesOutput.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		DE426D371C89B225000F67F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../googletest/include,
+					../googletest,
+				);
+				"INFOPLIST_PREFIX_HEADER[sdk=*]" = "";
+				"INFOPLIST_PREPROCESSOR_DEFINITIONS[sdk=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE426D381C89B225000F67F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../googletest/include,
+					../googletest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		DE8B5A721C78061A00379B8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -197,6 +556,10 @@
 		DE8B5A751C78061A00379B8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -204,6 +567,10 @@
 		DE8B5A761C78061A00379B8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -211,6 +578,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DE426D361C89B225000F67F5 /* Build configuration list for PBXNativeTarget "gtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE426D371C89B225000F67F5 /* Debug */,
+				DE426D381C89B225000F67F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DE8B5A661C78061A00379B8A /* Build configuration list for PBXProject "cExer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -227,6 +602,7 @@
 				DE8B5A761C78061A00379B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
