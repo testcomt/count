@@ -7,16 +7,16 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "NO"
+            buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE8B5A6A1C78061A00379B8A"
-               BuildableName = "cExer"
-               BlueprintName = "cExer"
+               BlueprintIdentifier = "DE426D2F1C89B225000F67F5"
+               BuildableName = "gtest"
+               BlueprintName = "gtest"
                ReferencedContainer = "container:cExer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE8B5A6A1C78061A00379B8A"
-            BuildableName = "cExer"
-            BlueprintName = "cExer"
+            BlueprintIdentifier = "DE426D2F1C89B225000F67F5"
+            BuildableName = "gtest"
+            BlueprintName = "gtest"
             ReferencedContainer = "container:cExer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE8B5A6A1C78061A00379B8A"
-            BuildableName = "cExer"
-            BlueprintName = "cExer"
+            BlueprintIdentifier = "DE426D2F1C89B225000F67F5"
+            BuildableName = "gtest"
+            BlueprintName = "gtest"
             ReferencedContainer = "container:cExer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE8B5A6A1C78061A00379B8A"
-            BuildableName = "cExer"
-            BlueprintName = "cExer"
+            BlueprintIdentifier = "DE426D2F1C89B225000F67F5"
+            BuildableName = "gtest"
+            BlueprintName = "gtest"
             ReferencedContainer = "container:cExer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -331,7 +331,7 @@
 		DE8B5A631C78061A00379B8A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "邰 晓梅";
 			};
 			buildConfigurationList = DE8B5A661C78061A00379B8A /* Build configuration list for PBXProject "cExer" */;
@@ -500,6 +500,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -585,6 +586,7 @@
 				DE426D381C89B225000F67F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE8B5A661C78061A00379B8A /* Build configuration list for PBXProject "cExer" */ = {
 			isa = XCConfigurationList;
